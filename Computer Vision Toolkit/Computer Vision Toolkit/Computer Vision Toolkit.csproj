@@ -140,6 +140,9 @@
     <None Include="lib\Algorithms\pretrained_aod_net_numpy.npy">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+	<None Include="lib\Algorithms\yolov3.weights">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="lib\Logs\codes.ini">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -163,6 +166,9 @@
     </None>
     <Content Include="lib\Algorithms\AODNet.py">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Algorithms\RoboticVisionLabDetector.py">
+		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="LICENSE.txt" />
     <None Include="Properties\Settings.settings">
