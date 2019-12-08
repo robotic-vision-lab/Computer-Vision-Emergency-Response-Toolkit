@@ -19,6 +19,13 @@ Release version can be found at: http://cver.hrail.crasar.org
 * Microsoft Visual Studio 2017 Installer Projects Extension
   * This can be installed by clicking ```Tools -> Extensions and Updates... -> Online``` then entering the name of the extension in the search box
   
+## Developer Note
+* Note: Before building the project in Visual Studio, please verify that the ‘yolov3.weights’ file is present in the ‘Computer-Vision-Emergency-Response-Toolkit-CVERT-Competition-Master\Computer Vision Toolkit\Computer Vision Toolkit\lib\Algorithms’ folder . If it is not present, it can be downloaded from https://pjreddie.com/media/files/yolov3.weights. 
+
+* Currently I am not able to commit large LFS file and issue regarding this already open in github community.
+* https://github.com/git-lfs/git-lfs/issues/1449
+* https://github.com/Fergex/Platformer445/issues/2
+  
 
 ## Python Setup
 * Python 3.6.4
@@ -47,4 +54,8 @@ Release version can be found at: http://cver.hrail.crasar.org
 * Matplotlib
   * pip install matplotlib
   * https://matplotlib.org
+* Tensorflow
+  * pip install -v tensorflow
+* keras
+  * pip install -v keras
 
