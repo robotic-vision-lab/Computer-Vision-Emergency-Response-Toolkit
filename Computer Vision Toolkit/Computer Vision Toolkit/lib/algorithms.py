@@ -20,6 +20,8 @@ from status import status, log
 from Algorithms.RXDetector import RXD
 from Algorithms.DXDetector import DebrisDetect
 from Algorithms.AODNet import Dehaze
+from Algorithms.AODNet import Dehaze
+from Algorithms.RoboticVisionLabDetector import Robotic_Vision_Lab
 
 
 
@@ -38,8 +40,9 @@ Params = {
     "CornerBilateralColor":200,
     "CornerBilateralSpace":500, 
     "CornerMaxDistance":75, 
-    "CornerNumPoints":3
-    
+    "CornerNumPoints":3,
+	"PersonThreshold":0.5
+  
     }
 
 
@@ -48,22 +51,23 @@ Params = {
 Alg_List = { 
 	'RXD':RXD,
     'DebrisDetect':DebrisDetect,
-	'Dehaze':Dehaze
+	'Dehaze':Dehaze,
+	'Robotic_Vision_Lab':Robotic_Vision_Lab
     
     }
 
 Alg_Order = {
 	'RXD':2,
     'DebrisDetect':3,
-	'Dehaze':1
-   
+	'Dehaze':1,
+    'Robotic_Vision_Lab':4
 	}
 
 Alg_Pipe = {
     'RXD':0,
     'DebrisDetect':0,
-	'Dehaze':0
-   
+	'Dehaze':0,
+    'Robotic_Vision_Lab':0
     }
 
 

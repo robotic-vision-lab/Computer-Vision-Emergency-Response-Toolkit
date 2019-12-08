@@ -12,10 +12,16 @@ pip3 install -v spectral
 ::  Matplotlib
 pip3 install -v matplotlib
 
+
 ::====================================================================================
 ::--------------------For new algorithms add the new packages here--------------------
 ::====================================================================================
 ::Use: 'pip3 install -v <Package_Name>'
+
+::Tensorflow
+pip3 install -v tensorflow
+::keras
+pip3 install -v keras
 
 
 
