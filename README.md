@@ -58,4 +58,7 @@ Release version can be found at: http://cver.hrail.crasar.org
   * pip install -v tensorflow
 * keras
   * pip install -v keras
-
+  
+  ## Oputput
+<br/> Sharing output image after analysis. We are successfully able to detect the person in images and hightlight area in boundary box. Click on the image for detail video description
+[![Watch Video here](https://github.com/robotic-vision-lab/Computer-Vision-Emergency-Response-Toolkit/blob/master/Documentation/Image/result.JPG)](https://youtu.be/xPBmQ31Bv-Y)
