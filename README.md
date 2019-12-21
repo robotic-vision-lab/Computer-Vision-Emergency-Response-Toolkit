@@ -59,7 +59,7 @@ Release version can be found at: http://cver.hrail.crasar.org
 * keras
   * pip install -v keras
   
- ## Oputput
-<br/> Sharing output image after analysis. We are successfully able to detect the person in image and hightlighted the area in boundary box. 
-Click on the image for detail video description
+ ## Improvements by the University of Texas at Arlington Robotic Vision Lab (RVL)
+The RVL has extended the toolkit to provide human detection under challenging environmental conditions. Please click on the following image for a detailed video description:
+
 [![Watch Video here](https://github.com/robotic-vision-lab/Computer-Vision-Emergency-Response-Toolkit/blob/master/Documentation/Image/result.JPG)](https://youtu.be/xPBmQ31Bv-Y)
